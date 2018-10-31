@@ -23,9 +23,11 @@ def getJsonFromFile():
 	with open(JSON_FILE_PATH) as file:
 		data = json.load(file)
 	return data;
+
 def parseJson(childrenJson):
-	for child in childrenJson:
-		child
+	pastData = getJsonFromFile()
+	#for child in childrenJson:
+	#	if(child['id'])
 
 
 def searchReddit(args):
